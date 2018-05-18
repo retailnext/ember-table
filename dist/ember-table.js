@@ -328,7 +328,7 @@ var define, requireModule, require, requirejs;
           value = [];
 
           var content = this.get('content');
-          if (content.then)
+          if (content && content.then)
           {
             // content is a promise
             content.then(function(resolvedContent) {
@@ -1249,7 +1249,7 @@ var define, requireModule, require, requirejs;
       var child0 = (function() {
         return {
           isHTMLBars: true,
-          revision: "Ember@1.12.1",
+          revision: "Ember@1.12.2",
           blockParams: 0,
           cachedFragment: null,
           hasRendered: false,
@@ -1291,7 +1291,7 @@ var define, requireModule, require, requirejs;
       }());
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1366,7 +1366,7 @@ var define, requireModule, require, requirejs;
       var child0 = (function() {
         return {
           isHTMLBars: true,
-          revision: "Ember@1.12.1",
+          revision: "Ember@1.12.2",
           blockParams: 0,
           cachedFragment: null,
           hasRendered: false,
@@ -1409,7 +1409,7 @@ var define, requireModule, require, requirejs;
       var child1 = (function() {
         return {
           isHTMLBars: true,
-          revision: "Ember@1.12.1",
+          revision: "Ember@1.12.2",
           blockParams: 0,
           cachedFragment: null,
           hasRendered: false,
@@ -1451,7 +1451,7 @@ var define, requireModule, require, requirejs;
       }());
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1519,7 +1519,7 @@ var define, requireModule, require, requirejs;
       var child0 = (function() {
         return {
           isHTMLBars: true,
-          revision: "Ember@1.12.1",
+          revision: "Ember@1.12.2",
           blockParams: 0,
           cachedFragment: null,
           hasRendered: false,
@@ -1561,7 +1561,7 @@ var define, requireModule, require, requirejs;
       }());
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1621,7 +1621,7 @@ var define, requireModule, require, requirejs;
     __exports__["default"] = Ember.HTMLBars.template((function() {
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1681,7 +1681,7 @@ var define, requireModule, require, requirejs;
     __exports__["default"] = Ember.HTMLBars.template((function() {
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1729,7 +1729,7 @@ var define, requireModule, require, requirejs;
       var child0 = (function() {
         return {
           isHTMLBars: true,
-          revision: "Ember@1.12.1",
+          revision: "Ember@1.12.2",
           blockParams: 0,
           cachedFragment: null,
           hasRendered: false,
@@ -1771,7 +1771,7 @@ var define, requireModule, require, requirejs;
       }());
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1831,7 +1831,7 @@ var define, requireModule, require, requirejs;
     __exports__["default"] = Ember.HTMLBars.template((function() {
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1891,7 +1891,7 @@ var define, requireModule, require, requirejs;
     __exports__["default"] = Ember.HTMLBars.template((function() {
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
@@ -1942,7 +1942,7 @@ var define, requireModule, require, requirejs;
     __exports__["default"] = Ember.HTMLBars.template((function() {
       return {
         isHTMLBars: true,
-        revision: "Ember@1.12.1",
+        revision: "Ember@1.12.2",
         blockParams: 0,
         cachedFragment: null,
         hasRendered: false,
